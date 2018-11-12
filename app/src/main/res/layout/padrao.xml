@@ -38,7 +38,10 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        android:layout_marginEnd="8dp"
         app:headerLayout="@layout/nav_header"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/textView"
         app:menu="@menu/navigation_menu">
 
     </android.support.design.widget.NavigationView>
